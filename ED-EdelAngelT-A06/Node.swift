@@ -1,9 +1,9 @@
 
 class Node{
-var data: Int
+var dato: Int
 var next: Node?
 init node(dato: Int){
-	self.data= dato
+	self.dato= dato
 	self.next = nil
 }
 init node(dato:Int, next: Node){
